@@ -1,0 +1,606 @@
+{
+    "_meta": {
+        "warehouse": {
+            "tag": "Conventional",
+            "uuid": ""
+        },
+        "optimizationParameters": {
+            "NUM_ITERATIONS": 20000,
+            "USE_REASSIGNMENT_DISTANCE": true,
+            "PERC_SWAPS": 100,
+            "C1": 4,
+            "C2": 1,
+            "R_AMOUNT": 0.5
+        },
+        "requestName": "c58_e8ef",
+        "bench": {
+            "req_name_int": 305,
+            "ALGO": null
+        }
+    },
+    "requestType": "storageassignment",
+    "requestData": {
+        "auth": null,
+        "destination": "1",
+        "mobileUnitCapacities": {
+            "numOrders": 0,
+            "volume": null,
+            "weight": null
+        },
+        "origin": "0",
+        "computationalTime": "minimal",
+        "SKUsToSlot": "optimizedSelectionPickingLog",
+        "optimizationType": {
+            "analysisOnly": false
+        },
+        "assignmentOptions": {
+            "openLocations": "SKUsToSlot",
+            "evaluationData": "pickingLogInRequest",
+            "assignmentType": "swaps"
+        },
+        "pickingLog": {
+            "0": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_1",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "167",
+                            "206",
+                            "40",
+                            "79",
+                            "101",
+                            "104",
+                            "196",
+                            "2"
+                        ],
+                        "SKUs": [
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9"
+                        ]
+                    }
+                }
+            },
+            "1": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_10",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "146",
+                            "92",
+                            "173"
+                        ],
+                        "SKUs": [
+                            "53",
+                            "54",
+                            "55"
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_11",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "181",
+                            "5",
+                            "94",
+                            "51"
+                        ],
+                        "SKUs": [
+                            "56",
+                            "57",
+                            "58",
+                            "59"
+                        ]
+                    }
+                }
+            },
+            "3": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_2",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "10",
+                            "95",
+                            "88",
+                            "37",
+                            "12",
+                            "53",
+                            "66"
+                        ],
+                        "SKUs": [
+                            "10",
+                            "11",
+                            "12",
+                            "13",
+                            "14",
+                            "15",
+                            "16"
+                        ]
+                    }
+                }
+            },
+            "4": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_3",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "217",
+                            "154",
+                            "188",
+                            "212",
+                            "3",
+                            "84",
+                            "105",
+                            "174"
+                        ],
+                        "SKUs": [
+                            "17",
+                            "18",
+                            "19",
+                            "20",
+                            "21",
+                            "22",
+                            "23",
+                            "24"
+                        ]
+                    }
+                }
+            },
+            "5": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_4",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "96",
+                            "48",
+                            "198"
+                        ],
+                        "SKUs": [
+                            "25",
+                            "26",
+                            "52"
+                        ]
+                    }
+                }
+            },
+            "6": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_5",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "159",
+                            "80",
+                            "20",
+                            "9",
+                            "127",
+                            "141"
+                        ],
+                        "SKUs": [
+                            "27",
+                            "28",
+                            "29",
+                            "30",
+                            "31",
+                            "32"
+                        ]
+                    }
+                }
+            },
+            "7": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_6",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "124",
+                            "17",
+                            "203",
+                            "26",
+                            "102",
+                            "170",
+                            "193"
+                        ],
+                        "SKUs": [
+                            "33",
+                            "34",
+                            "35",
+                            "36",
+                            "37",
+                            "38",
+                            "39"
+                        ]
+                    }
+                }
+            },
+            "8": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_7",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "164",
+                            "137",
+                            "24",
+                            "168",
+                            "42",
+                            "208"
+                        ],
+                        "SKUs": [
+                            "40",
+                            "41",
+                            "42",
+                            "43",
+                            "44",
+                            "45"
+                        ]
+                    }
+                }
+            },
+            "9": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_8",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "70",
+                            "190",
+                            "73",
+                            "198",
+                            "84",
+                            "112",
+                            "73",
+                            "41",
+                            "109",
+                            "30",
+                            "40",
+                            "9",
+                            "182"
+                        ],
+                        "SKUs": [
+                            "46",
+                            "47",
+                            "48",
+                            "52",
+                            "22",
+                            "98",
+                            "48",
+                            "117",
+                            "69",
+                            "202",
+                            "4",
+                            "30",
+                            "166"
+                        ]
+                    }
+                }
+            },
+            "10": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_9",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "171",
+                            "107",
+                            "14",
+                            "198"
+                        ],
+                        "SKUs": [
+                            "49",
+                            "50",
+                            "51",
+                            "52"
+                        ]
+                    }
+                }
+            },
+            "11": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_12",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "10",
+                            "95",
+                            "88",
+                            "37",
+                            "12",
+                            "53",
+                            "66"
+                        ],
+                        "SKUs": [
+                            "10",
+                            "11",
+                            "12",
+                            "13",
+                            "14",
+                            "15",
+                            "16"
+                        ]
+                    }
+                }
+            },
+            "12": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_13",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "146",
+                            "92",
+                            "173"
+                        ],
+                        "SKUs": [
+                            "53",
+                            "54",
+                            "55"
+                        ]
+                    }
+                }
+            },
+            "13": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_14",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "167",
+                            "206",
+                            "40",
+                            "79",
+                            "101",
+                            "104",
+                            "196",
+                            "2"
+                        ],
+                        "SKUs": [
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9"
+                        ]
+                    }
+                }
+            },
+            "14": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_15",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "10",
+                            "95",
+                            "88",
+                            "37",
+                            "12",
+                            "53",
+                            "66"
+                        ],
+                        "SKUs": [
+                            "10",
+                            "11",
+                            "12",
+                            "13",
+                            "14",
+                            "15",
+                            "16"
+                        ]
+                    }
+                }
+            },
+            "15": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "Conventional",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c58_e8ef_16",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "70",
+                            "190",
+                            "73"
+                        ],
+                        "SKUs": [
+                            "46",
+                            "47",
+                            "48"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

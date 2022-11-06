@@ -1,0 +1,89 @@
+{
+    "distanceOrderPicking": 399.68,
+    "distanceOriginal": 451.7,
+    "distanceReassignmentPath": 62.0,
+    "distanceTotalOptimized": 461.68,
+    "numberOfLocationChangesProposed": 15,
+    "reassignmentPath": [
+        "43",
+        "60",
+        "117",
+        "39",
+        "139",
+        "49",
+        "148",
+        "108",
+        "43",
+        "53",
+        "63",
+        "64",
+        "53",
+        "73",
+        "195",
+        "192",
+        "191",
+        "73"
+    ],
+    "slottedSKUs": {
+        "114": {
+            "rawLocCurrent": "117",
+            "rawLocOriginal": "60"
+        },
+        "19": {
+            "rawLocCurrent": "108",
+            "rawLocOriginal": "148"
+        },
+        "27": {
+            "rawLocCurrent": "43",
+            "rawLocOriginal": "108"
+        },
+        "29": {
+            "rawLocCurrent": "49",
+            "rawLocOriginal": "139"
+        },
+        "37": {
+            "rawLocCurrent": "192",
+            "rawLocOriginal": "195"
+        },
+        "39": {
+            "rawLocCurrent": "148",
+            "rawLocOriginal": "49"
+        },
+        "46": {
+            "rawLocCurrent": "63",
+            "rawLocOriginal": "53"
+        },
+        "48": {
+            "rawLocCurrent": "191",
+            "rawLocOriginal": "192"
+        },
+        "53": {
+            "rawLocCurrent": "39",
+            "rawLocOriginal": "117"
+        },
+        "56": {
+            "rawLocCurrent": "53",
+            "rawLocOriginal": "64"
+        },
+        "57": {
+            "rawLocCurrent": "73",
+            "rawLocOriginal": "191"
+        },
+        "58": {
+            "rawLocCurrent": "64",
+            "rawLocOriginal": "63"
+        },
+        "70": {
+            "rawLocCurrent": "60",
+            "rawLocOriginal": "43"
+        },
+        "72": {
+            "rawLocCurrent": "139",
+            "rawLocOriginal": "39"
+        },
+        "9": {
+            "rawLocCurrent": "195",
+            "rawLocOriginal": "73"
+        }
+    }
+}

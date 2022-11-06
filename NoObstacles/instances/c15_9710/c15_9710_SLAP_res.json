@@ -1,0 +1,88 @@
+{
+    "distanceOrderPicking": 117.16,
+    "distanceOriginal": 169.681,
+    "distanceReassignmentPath": 55.96,
+    "distanceTotalOptimized": 173.11,
+    "numberOfLocationChangesProposed": 15,
+    "reassignmentPath": [
+        "105",
+        "306",
+        "67",
+        "60",
+        "79",
+        "364",
+        "260",
+        "166",
+        "62",
+        "311",
+        "267",
+        "105",
+        "58",
+        "137",
+        "239",
+        "361",
+        "58"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "361",
+            "rawLocOriginal": "239"
+        },
+        "11": {
+            "rawLocCurrent": "105",
+            "rawLocOriginal": "267"
+        },
+        "12": {
+            "rawLocCurrent": "239",
+            "rawLocOriginal": "137"
+        },
+        "13": {
+            "rawLocCurrent": "137",
+            "rawLocOriginal": "58"
+        },
+        "14": {
+            "rawLocCurrent": "58",
+            "rawLocOriginal": "361"
+        },
+        "208": {
+            "rawLocCurrent": "311",
+            "rawLocOriginal": "62"
+        },
+        "214": {
+            "rawLocCurrent": "306",
+            "rawLocOriginal": "105"
+        },
+        "270": {
+            "rawLocCurrent": "166",
+            "rawLocOriginal": "260"
+        },
+        "3": {
+            "rawLocCurrent": "62",
+            "rawLocOriginal": "166"
+        },
+        "333": {
+            "rawLocCurrent": "364",
+            "rawLocOriginal": "79"
+        },
+        "475": {
+            "rawLocCurrent": "60",
+            "rawLocOriginal": "67"
+        },
+        "5": {
+            "rawLocCurrent": "79",
+            "rawLocOriginal": "60"
+        },
+        "6": {
+            "rawLocCurrent": "67",
+            "rawLocOriginal": "306"
+        },
+        "7": {
+            "rawLocCurrent": "267",
+            "rawLocOriginal": "311"
+        },
+        "9": {
+            "rawLocCurrent": "260",
+            "rawLocOriginal": "364"
+        }
+    }
+}

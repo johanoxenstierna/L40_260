@@ -1,0 +1,107 @@
+{
+    "distanceOrderPicking": 198.6,
+    "distanceOriginal": 288.6,
+    "distanceReassignmentPath": 94.26,
+    "distanceTotalOptimized": 292.86,
+    "numberOfLocationChangesProposed": 19,
+    "reassignmentPath": [
+        "20",
+        "132",
+        "33",
+        "64",
+        "35",
+        "45",
+        "61",
+        "144",
+        "217",
+        "175",
+        "237",
+        "110",
+        "207",
+        "36",
+        "47",
+        "180",
+        "227",
+        "235",
+        "179",
+        "20"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "132",
+            "rawLocOriginal": "20"
+        },
+        "14": {
+            "rawLocCurrent": "61",
+            "rawLocOriginal": "45"
+        },
+        "18": {
+            "rawLocCurrent": "217",
+            "rawLocOriginal": "144"
+        },
+        "19": {
+            "rawLocCurrent": "180",
+            "rawLocOriginal": "47"
+        },
+        "2": {
+            "rawLocCurrent": "20",
+            "rawLocOriginal": "179"
+        },
+        "21": {
+            "rawLocCurrent": "235",
+            "rawLocOriginal": "227"
+        },
+        "22": {
+            "rawLocCurrent": "237",
+            "rawLocOriginal": "175"
+        },
+        "225": {
+            "rawLocCurrent": "45",
+            "rawLocOriginal": "35"
+        },
+        "269": {
+            "rawLocCurrent": "47",
+            "rawLocOriginal": "36"
+        },
+        "28": {
+            "rawLocCurrent": "207",
+            "rawLocOriginal": "110"
+        },
+        "3": {
+            "rawLocCurrent": "33",
+            "rawLocOriginal": "132"
+        },
+        "30": {
+            "rawLocCurrent": "175",
+            "rawLocOriginal": "217"
+        },
+        "33": {
+            "rawLocCurrent": "64",
+            "rawLocOriginal": "33"
+        },
+        "38": {
+            "rawLocCurrent": "227",
+            "rawLocOriginal": "180"
+        },
+        "4": {
+            "rawLocCurrent": "36",
+            "rawLocOriginal": "207"
+        },
+        "47": {
+            "rawLocCurrent": "144",
+            "rawLocOriginal": "61"
+        },
+        "48": {
+            "rawLocCurrent": "179",
+            "rawLocOriginal": "235"
+        },
+        "49": {
+            "rawLocCurrent": "110",
+            "rawLocOriginal": "237"
+        },
+        "5": {
+            "rawLocCurrent": "35",
+            "rawLocOriginal": "64"
+        }
+    }
+}

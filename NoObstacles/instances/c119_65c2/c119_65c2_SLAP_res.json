@@ -1,0 +1,88 @@
+{
+    "distanceOrderPicking": 507.86,
+    "distanceOriginal": 574.367,
+    "distanceReassignmentPath": 67.61,
+    "distanceTotalOptimized": 575.47,
+    "numberOfLocationChangesProposed": 15,
+    "reassignmentPath": [
+        "463",
+        "208",
+        "463",
+        "183",
+        "161",
+        "99",
+        "238",
+        "195",
+        "140",
+        "75",
+        "87",
+        "372",
+        "381",
+        "438",
+        "240",
+        "2",
+        "183"
+    ],
+    "slottedSKUs": {
+        "115": {
+            "rawLocCurrent": "87",
+            "rawLocOriginal": "75"
+        },
+        "20": {
+            "rawLocCurrent": "99",
+            "rawLocOriginal": "161"
+        },
+        "30": {
+            "rawLocCurrent": "2",
+            "rawLocOriginal": "240"
+        },
+        "33": {
+            "rawLocCurrent": "208",
+            "rawLocOriginal": "463"
+        },
+        "34": {
+            "rawLocCurrent": "381",
+            "rawLocOriginal": "372"
+        },
+        "39": {
+            "rawLocCurrent": "372",
+            "rawLocOriginal": "87"
+        },
+        "40": {
+            "rawLocCurrent": "183",
+            "rawLocOriginal": "2"
+        },
+        "41": {
+            "rawLocCurrent": "240",
+            "rawLocOriginal": "438"
+        },
+        "5": {
+            "rawLocCurrent": "140",
+            "rawLocOriginal": "195"
+        },
+        "50": {
+            "rawLocCurrent": "161",
+            "rawLocOriginal": "183"
+        },
+        "61": {
+            "rawLocCurrent": "238",
+            "rawLocOriginal": "99"
+        },
+        "70": {
+            "rawLocCurrent": "463",
+            "rawLocOriginal": "208"
+        },
+        "74": {
+            "rawLocCurrent": "195",
+            "rawLocOriginal": "238"
+        },
+        "79": {
+            "rawLocCurrent": "438",
+            "rawLocOriginal": "381"
+        },
+        "82": {
+            "rawLocCurrent": "75",
+            "rawLocOriginal": "140"
+        }
+    }
+}

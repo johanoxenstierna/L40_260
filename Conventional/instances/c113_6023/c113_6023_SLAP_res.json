@@ -1,0 +1,95 @@
+{
+    "distanceOrderPicking": 486.77,
+    "distanceOriginal": 556.5,
+    "distanceReassignmentPath": 87.29,
+    "distanceTotalOptimized": 574.06,
+    "numberOfLocationChangesProposed": 16,
+    "reassignmentPath": [
+        "135",
+        "147",
+        "135",
+        "144",
+        "126",
+        "144",
+        "60",
+        "191",
+        "121",
+        "68",
+        "188",
+        "201",
+        "43",
+        "216",
+        "60",
+        "62",
+        "106",
+        "199",
+        "51",
+        "62"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "199",
+            "rawLocOriginal": "106"
+        },
+        "11": {
+            "rawLocCurrent": "201",
+            "rawLocOriginal": "188"
+        },
+        "119": {
+            "rawLocCurrent": "147",
+            "rawLocOriginal": "135"
+        },
+        "14": {
+            "rawLocCurrent": "60",
+            "rawLocOriginal": "216"
+        },
+        "155": {
+            "rawLocCurrent": "216",
+            "rawLocOriginal": "43"
+        },
+        "20": {
+            "rawLocCurrent": "106",
+            "rawLocOriginal": "62"
+        },
+        "37": {
+            "rawLocCurrent": "62",
+            "rawLocOriginal": "51"
+        },
+        "42": {
+            "rawLocCurrent": "121",
+            "rawLocOriginal": "191"
+        },
+        "5": {
+            "rawLocCurrent": "144",
+            "rawLocOriginal": "126"
+        },
+        "50": {
+            "rawLocCurrent": "135",
+            "rawLocOriginal": "147"
+        },
+        "56": {
+            "rawLocCurrent": "188",
+            "rawLocOriginal": "68"
+        },
+        "65": {
+            "rawLocCurrent": "191",
+            "rawLocOriginal": "60"
+        },
+        "77": {
+            "rawLocCurrent": "126",
+            "rawLocOriginal": "144"
+        },
+        "80": {
+            "rawLocCurrent": "43",
+            "rawLocOriginal": "201"
+        },
+        "81": {
+            "rawLocCurrent": "51",
+            "rawLocOriginal": "199"
+        },
+        "83": {
+            "rawLocCurrent": "68",
+            "rawLocOriginal": "121"
+        }
+    }
+}

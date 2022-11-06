@@ -1,0 +1,89 @@
+{
+    "distanceOrderPicking": 507.23,
+    "distanceOriginal": 568.1,
+    "distanceReassignmentPath": 68.29,
+    "distanceTotalOptimized": 575.52,
+    "numberOfLocationChangesProposed": 15,
+    "reassignmentPath": [
+        "153",
+        "144",
+        "176",
+        "35",
+        "95",
+        "184",
+        "71",
+        "154",
+        "56",
+        "135",
+        "153",
+        "162",
+        "130",
+        "162",
+        "53",
+        "65",
+        "104",
+        "53"
+    ],
+    "slottedSKUs": {
+        "100": {
+            "rawLocCurrent": "130",
+            "rawLocOriginal": "162"
+        },
+        "104": {
+            "rawLocCurrent": "154",
+            "rawLocOriginal": "71"
+        },
+        "11": {
+            "rawLocCurrent": "144",
+            "rawLocOriginal": "153"
+        },
+        "123": {
+            "rawLocCurrent": "135",
+            "rawLocOriginal": "56"
+        },
+        "15": {
+            "rawLocCurrent": "71",
+            "rawLocOriginal": "184"
+        },
+        "16": {
+            "rawLocCurrent": "162",
+            "rawLocOriginal": "130"
+        },
+        "34": {
+            "rawLocCurrent": "104",
+            "rawLocOriginal": "65"
+        },
+        "38": {
+            "rawLocCurrent": "95",
+            "rawLocOriginal": "35"
+        },
+        "40": {
+            "rawLocCurrent": "56",
+            "rawLocOriginal": "154"
+        },
+        "45": {
+            "rawLocCurrent": "53",
+            "rawLocOriginal": "104"
+        },
+        "59": {
+            "rawLocCurrent": "35",
+            "rawLocOriginal": "176"
+        },
+        "60": {
+            "rawLocCurrent": "65",
+            "rawLocOriginal": "53"
+        },
+        "73": {
+            "rawLocCurrent": "153",
+            "rawLocOriginal": "135"
+        },
+        "74": {
+            "rawLocCurrent": "184",
+            "rawLocOriginal": "95"
+        },
+        "86": {
+            "rawLocCurrent": "176",
+            "rawLocOriginal": "144"
+        }
+    }
+}

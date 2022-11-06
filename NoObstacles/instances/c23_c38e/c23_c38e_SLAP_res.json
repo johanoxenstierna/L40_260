@@ -1,0 +1,87 @@
+{
+    "distanceOrderPicking": 112.18,
+    "distanceOriginal": 153.275,
+    "distanceReassignmentPath": 49.73,
+    "distanceTotalOptimized": 161.91,
+    "numberOfLocationChangesProposed": 15,
+    "reassignmentPath": [
+        "290",
+        "30",
+        "336",
+        "370",
+        "325",
+        "410",
+        "79",
+        "424",
+        "438",
+        "402",
+        "459",
+        "338",
+        "167",
+        "126",
+        "327",
+        "290"
+    ],
+    "slottedSKUs": {
+        "11": {
+            "rawLocCurrent": "325",
+            "rawLocOriginal": "370"
+        },
+        "12": {
+            "rawLocCurrent": "79",
+            "rawLocOriginal": "410"
+        },
+        "15": {
+            "rawLocCurrent": "327",
+            "rawLocOriginal": "126"
+        },
+        "16": {
+            "rawLocCurrent": "370",
+            "rawLocOriginal": "336"
+        },
+        "22": {
+            "rawLocCurrent": "290",
+            "rawLocOriginal": "327"
+        },
+        "24": {
+            "rawLocCurrent": "167",
+            "rawLocOriginal": "338"
+        },
+        "242": {
+            "rawLocCurrent": "438",
+            "rawLocOriginal": "424"
+        },
+        "335": {
+            "rawLocCurrent": "126",
+            "rawLocOriginal": "167"
+        },
+        "354": {
+            "rawLocCurrent": "410",
+            "rawLocOriginal": "325"
+        },
+        "392": {
+            "rawLocCurrent": "30",
+            "rawLocOriginal": "290"
+        },
+        "4": {
+            "rawLocCurrent": "424",
+            "rawLocOriginal": "79"
+        },
+        "402": {
+            "rawLocCurrent": "459",
+            "rawLocOriginal": "402"
+        },
+        "6": {
+            "rawLocCurrent": "402",
+            "rawLocOriginal": "438"
+        },
+        "8": {
+            "rawLocCurrent": "336",
+            "rawLocOriginal": "30"
+        },
+        "9": {
+            "rawLocCurrent": "338",
+            "rawLocOriginal": "459"
+        }
+    }
+}

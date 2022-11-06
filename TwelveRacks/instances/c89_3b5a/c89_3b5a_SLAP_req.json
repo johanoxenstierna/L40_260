@@ -1,0 +1,880 @@
+{
+    "_meta": {
+        "warehouse": {
+            "tag": "TwelveRacks",
+            "uuid": ""
+        },
+        "optimizationParameters": {
+            "NUM_ITERATIONS": 20000,
+            "USE_REASSIGNMENT_DISTANCE": true,
+            "PERC_SWAPS": 100,
+            "C1": 4,
+            "C2": 1,
+            "R_AMOUNT": 0.5
+        },
+        "requestName": "c89_3b5a",
+        "bench": {
+            "req_name_int": 216,
+            "ALGO": null
+        }
+    },
+    "requestType": "storageassignment",
+    "requestData": {
+        "auth": null,
+        "destination": "1",
+        "mobileUnitCapacities": {
+            "numOrders": 0,
+            "volume": null,
+            "weight": null
+        },
+        "origin": "0",
+        "computationalTime": "minimal",
+        "SKUsToSlot": "optimizedSelectionPickingLog",
+        "optimizationType": {
+            "analysisOnly": false
+        },
+        "assignmentOptions": {
+            "openLocations": "SKUsToSlot",
+            "evaluationData": "pickingLogInRequest",
+            "assignmentType": "swaps"
+        },
+        "pickingLog": {
+            "0": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_1",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "124",
+                            "41",
+                            "56",
+                            "148",
+                            "6",
+                            "68",
+                            "127",
+                            "95"
+                        ],
+                        "SKUs": [
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9"
+                        ]
+                    }
+                }
+            },
+            "1": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_10",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "85",
+                            "136",
+                            "80",
+                            "34",
+                            "151"
+                        ],
+                        "SKUs": [
+                            "38",
+                            "39",
+                            "40",
+                            "41",
+                            "42"
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_11",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "160",
+                            "12",
+                            "55",
+                            "44",
+                            "173"
+                        ],
+                        "SKUs": [
+                            "43",
+                            "44",
+                            "45",
+                            "46",
+                            "47"
+                        ]
+                    }
+                }
+            },
+            "3": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_12",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "120",
+                            "172"
+                        ],
+                        "SKUs": [
+                            "48",
+                            "49"
+                        ]
+                    }
+                }
+            },
+            "4": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_13",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "161",
+                            "100",
+                            "91",
+                            "81",
+                            "2"
+                        ],
+                        "SKUs": [
+                            "50",
+                            "51",
+                            "52",
+                            "53",
+                            "54"
+                        ]
+                    }
+                }
+            },
+            "5": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_14",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "86",
+                            "149",
+                            "192"
+                        ],
+                        "SKUs": [
+                            "55",
+                            "56",
+                            "57"
+                        ]
+                    }
+                }
+            },
+            "6": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_15",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "153",
+                            "202",
+                            "64"
+                        ],
+                        "SKUs": [
+                            "58",
+                            "59",
+                            "60"
+                        ]
+                    }
+                }
+            },
+            "7": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_16",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "118",
+                            "165",
+                            "38"
+                        ],
+                        "SKUs": [
+                            "61",
+                            "62",
+                            "63"
+                        ]
+                    }
+                }
+            },
+            "8": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_17",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "37",
+                            "70",
+                            "99",
+                            "142",
+                            "17",
+                            "34"
+                        ],
+                        "SKUs": [
+                            "64",
+                            "65",
+                            "66",
+                            "67",
+                            "68",
+                            "41"
+                        ]
+                    }
+                }
+            },
+            "9": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_18",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "193",
+                            "92",
+                            "36",
+                            "191",
+                            "25",
+                            "52",
+                            "110"
+                        ],
+                        "SKUs": [
+                            "69",
+                            "70",
+                            "71",
+                            "72",
+                            "73",
+                            "74",
+                            "75"
+                        ]
+                    }
+                }
+            },
+            "10": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_19",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "26",
+                            "162",
+                            "73",
+                            "102",
+                            "31"
+                        ],
+                        "SKUs": [
+                            "76",
+                            "77",
+                            "78",
+                            "79",
+                            "80"
+                        ]
+                    }
+                }
+            },
+            "11": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_2",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "177",
+                            "195"
+                        ],
+                        "SKUs": [
+                            "10",
+                            "11"
+                        ]
+                    }
+                }
+            },
+            "12": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_20",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "112",
+                            "126"
+                        ],
+                        "SKUs": [
+                            "81",
+                            "82"
+                        ]
+                    }
+                }
+            },
+            "13": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_21",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "121",
+                            "19",
+                            "196",
+                            "190",
+                            "201",
+                            "98",
+                            "163",
+                            "188"
+                        ],
+                        "SKUs": [
+                            "83",
+                            "84",
+                            "85",
+                            "86",
+                            "87",
+                            "88",
+                            "89",
+                            "90"
+                        ]
+                    }
+                }
+            },
+            "14": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_3",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "69"
+                        ],
+                        "SKUs": [
+                            "12"
+                        ]
+                    }
+                }
+            },
+            "15": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_4",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "114",
+                            "4"
+                        ],
+                        "SKUs": [
+                            "13",
+                            "14"
+                        ]
+                    }
+                }
+            },
+            "16": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_5",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "7",
+                            "88",
+                            "39",
+                            "125",
+                            "129",
+                            "9",
+                            "10"
+                        ],
+                        "SKUs": [
+                            "15",
+                            "16",
+                            "17",
+                            "18",
+                            "19",
+                            "20",
+                            "21"
+                        ]
+                    }
+                }
+            },
+            "17": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_6",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "20",
+                            "47",
+                            "159"
+                        ],
+                        "SKUs": [
+                            "22",
+                            "23",
+                            "24"
+                        ]
+                    }
+                }
+            },
+            "18": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_7",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "166",
+                            "174",
+                            "66",
+                            "131",
+                            "82",
+                            "10",
+                            "193",
+                            "161",
+                            "34",
+                            "32",
+                            "45",
+                            "71"
+                        ],
+                        "SKUs": [
+                            "25",
+                            "26",
+                            "115",
+                            "205",
+                            "127",
+                            "21",
+                            "69",
+                            "50",
+                            "41",
+                            "144",
+                            "178",
+                            "100"
+                        ]
+                    }
+                }
+            },
+            "19": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_8",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "154",
+                            "101",
+                            "122",
+                            "178",
+                            "115",
+                            "183"
+                        ],
+                        "SKUs": [
+                            "27",
+                            "28",
+                            "29",
+                            "30",
+                            "31",
+                            "32"
+                        ]
+                    }
+                }
+            },
+            "20": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_9",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "59",
+                            "157",
+                            "133",
+                            "189",
+                            "93"
+                        ],
+                        "SKUs": [
+                            "33",
+                            "34",
+                            "35",
+                            "36",
+                            "37"
+                        ]
+                    }
+                }
+            },
+            "21": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_22",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "37",
+                            "70",
+                            "99",
+                            "142",
+                            "17"
+                        ],
+                        "SKUs": [
+                            "64",
+                            "65",
+                            "66",
+                            "67",
+                            "68"
+                        ]
+                    }
+                }
+            },
+            "22": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_23",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "177",
+                            "195"
+                        ],
+                        "SKUs": [
+                            "10",
+                            "11"
+                        ]
+                    }
+                }
+            },
+            "23": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_24",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "153",
+                            "202",
+                            "64"
+                        ],
+                        "SKUs": [
+                            "58",
+                            "59",
+                            "60"
+                        ]
+                    }
+                }
+            },
+            "24": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_25",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "69"
+                        ],
+                        "SKUs": [
+                            "12"
+                        ]
+                    }
+                }
+            },
+            "25": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "TwelveRacks",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c89_3b5a_26",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "124",
+                            "41",
+                            "56",
+                            "148",
+                            "6",
+                            "68",
+                            "127",
+                            "95"
+                        ],
+                        "SKUs": [
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

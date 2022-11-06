@@ -1,0 +1,152 @@
+{
+    "distanceOrderPicking": 176.27,
+    "distanceOriginal": 269.303,
+    "distanceReassignmentPath": 99.03,
+    "distanceTotalOptimized": 275.31,
+    "numberOfLocationChangesProposed": 28,
+    "reassignmentPath": [
+        "1",
+        "52",
+        "60",
+        "125",
+        "14",
+        "37",
+        "144",
+        "56",
+        "183",
+        "51",
+        "130",
+        "155",
+        "63",
+        "131",
+        "162",
+        "119",
+        "200",
+        "169",
+        "150",
+        "87",
+        "22",
+        "29",
+        "194",
+        "113",
+        "50",
+        "82",
+        "112",
+        "126",
+        "1"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "125",
+            "rawLocOriginal": "60"
+        },
+        "110": {
+            "rawLocCurrent": "14",
+            "rawLocOriginal": "125"
+        },
+        "14": {
+            "rawLocCurrent": "63",
+            "rawLocOriginal": "155"
+        },
+        "15": {
+            "rawLocCurrent": "169",
+            "rawLocOriginal": "200"
+        },
+        "16": {
+            "rawLocCurrent": "60",
+            "rawLocOriginal": "52"
+        },
+        "17": {
+            "rawLocCurrent": "87",
+            "rawLocOriginal": "150"
+        },
+        "19": {
+            "rawLocCurrent": "113",
+            "rawLocOriginal": "194"
+        },
+        "2": {
+            "rawLocCurrent": "194",
+            "rawLocOriginal": "29"
+        },
+        "20": {
+            "rawLocCurrent": "200",
+            "rawLocOriginal": "119"
+        },
+        "21": {
+            "rawLocCurrent": "51",
+            "rawLocOriginal": "183"
+        },
+        "24": {
+            "rawLocCurrent": "183",
+            "rawLocOriginal": "56"
+        },
+        "27": {
+            "rawLocCurrent": "162",
+            "rawLocOriginal": "131"
+        },
+        "28": {
+            "rawLocCurrent": "37",
+            "rawLocOriginal": "14"
+        },
+        "29": {
+            "rawLocCurrent": "1",
+            "rawLocOriginal": "126"
+        },
+        "3": {
+            "rawLocCurrent": "52",
+            "rawLocOriginal": "1"
+        },
+        "33": {
+            "rawLocCurrent": "56",
+            "rawLocOriginal": "144"
+        },
+        "36": {
+            "rawLocCurrent": "144",
+            "rawLocOriginal": "37"
+        },
+        "37": {
+            "rawLocCurrent": "112",
+            "rawLocOriginal": "82"
+        },
+        "42": {
+            "rawLocCurrent": "22",
+            "rawLocOriginal": "87"
+        },
+        "44": {
+            "rawLocCurrent": "131",
+            "rawLocOriginal": "63"
+        },
+        "45": {
+            "rawLocCurrent": "130",
+            "rawLocOriginal": "51"
+        },
+        "50": {
+            "rawLocCurrent": "126",
+            "rawLocOriginal": "112"
+        },
+        "53": {
+            "rawLocCurrent": "119",
+            "rawLocOriginal": "162"
+        },
+        "54": {
+            "rawLocCurrent": "150",
+            "rawLocOriginal": "169"
+        },
+        "56": {
+            "rawLocCurrent": "29",
+            "rawLocOriginal": "22"
+        },
+        "58": {
+            "rawLocCurrent": "82",
+            "rawLocOriginal": "50"
+        },
+        "60": {
+            "rawLocCurrent": "155",
+            "rawLocOriginal": "130"
+        },
+        "73": {
+            "rawLocCurrent": "50",
+            "rawLocOriginal": "113"
+        }
+    }
+}

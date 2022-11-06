@@ -1,0 +1,855 @@
+{
+    "_meta": {
+        "warehouse": {
+            "tag": "NR2",
+            "uuid": ""
+        },
+        "optimizationParameters": {
+            "NUM_ITERATIONS": 20000,
+            "USE_REASSIGNMENT_DISTANCE": true,
+            "PERC_SWAPS": 100,
+            "C1": 4,
+            "C2": 1,
+            "R_AMOUNT": 0.5
+        },
+        "requestName": "c84_17d1",
+        "bench": {
+            "req_name_int": 502,
+            "ALGO": null
+        }
+    },
+    "requestType": "storageassignment",
+    "requestData": {
+        "auth": null,
+        "destination": "1",
+        "mobileUnitCapacities": {
+            "numOrders": 0,
+            "volume": null,
+            "weight": null
+        },
+        "origin": "0",
+        "computationalTime": "minimal",
+        "SKUsToSlot": "optimizedSelectionPickingLog",
+        "optimizationType": {
+            "analysisOnly": false
+        },
+        "assignmentOptions": {
+            "openLocations": "SKUsToSlot",
+            "evaluationData": "pickingLogInRequest",
+            "assignmentType": "swaps"
+        },
+        "pickingLog": {
+            "0": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_1",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "10",
+                            "230",
+                            "20",
+                            "127",
+                            "165"
+                        ],
+                        "SKUs": [
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6"
+                        ]
+                    }
+                }
+            },
+            "1": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_10",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "190",
+                            "167",
+                            "271",
+                            "238"
+                        ],
+                        "SKUs": [
+                            "47",
+                            "48",
+                            "49",
+                            "50"
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_11",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "98",
+                            "252",
+                            "123",
+                            "176",
+                            "74",
+                            "197"
+                        ],
+                        "SKUs": [
+                            "51",
+                            "52",
+                            "53",
+                            "54",
+                            "55",
+                            "56"
+                        ]
+                    }
+                }
+            },
+            "3": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_12",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "12",
+                            "158",
+                            "162",
+                            "51",
+                            "225"
+                        ],
+                        "SKUs": [
+                            "57",
+                            "58",
+                            "59",
+                            "60",
+                            "61"
+                        ]
+                    }
+                }
+            },
+            "4": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_13",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "154",
+                            "129"
+                        ],
+                        "SKUs": [
+                            "62",
+                            "29"
+                        ]
+                    }
+                }
+            },
+            "5": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_14",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "38"
+                        ],
+                        "SKUs": [
+                            "63"
+                        ]
+                    }
+                }
+            },
+            "6": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_15",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "85"
+                        ],
+                        "SKUs": [
+                            "64"
+                        ]
+                    }
+                }
+            },
+            "7": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_16",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "66",
+                            "250",
+                            "244"
+                        ],
+                        "SKUs": [
+                            "65",
+                            "66",
+                            "67"
+                        ]
+                    }
+                }
+            },
+            "8": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_17",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "178",
+                            "78"
+                        ],
+                        "SKUs": [
+                            "68",
+                            "69"
+                        ]
+                    }
+                }
+            },
+            "9": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_18",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "146",
+                            "35",
+                            "4",
+                            "124",
+                            "269",
+                            "125"
+                        ],
+                        "SKUs": [
+                            "70",
+                            "71",
+                            "72",
+                            "73",
+                            "74",
+                            "75"
+                        ]
+                    }
+                }
+            },
+            "10": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_19",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "267",
+                            "173"
+                        ],
+                        "SKUs": [
+                            "76",
+                            "77"
+                        ]
+                    }
+                }
+            },
+            "11": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_2",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "160",
+                            "56",
+                            "119",
+                            "118",
+                            "44",
+                            "16"
+                        ],
+                        "SKUs": [
+                            "7",
+                            "8",
+                            "9",
+                            "10",
+                            "11",
+                            "12"
+                        ]
+                    }
+                }
+            },
+            "12": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_20",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "262",
+                            "240",
+                            "198",
+                            "260",
+                            "75",
+                            "182",
+                            "133",
+                            "222"
+                        ],
+                        "SKUs": [
+                            "78",
+                            "79",
+                            "80",
+                            "81",
+                            "82",
+                            "83",
+                            "84",
+                            "85"
+                        ]
+                    }
+                }
+            },
+            "13": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_3",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "22",
+                            "69"
+                        ],
+                        "SKUs": [
+                            "13",
+                            "14"
+                        ]
+                    }
+                }
+            },
+            "14": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_4",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "185",
+                            "54",
+                            "193",
+                            "232",
+                            "26",
+                            "126"
+                        ],
+                        "SKUs": [
+                            "15",
+                            "16",
+                            "17",
+                            "18",
+                            "19",
+                            "20"
+                        ]
+                    }
+                }
+            },
+            "15": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_5",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "251",
+                            "136",
+                            "2",
+                            "234",
+                            "205",
+                            "18",
+                            "192",
+                            "239"
+                        ],
+                        "SKUs": [
+                            "21",
+                            "22",
+                            "23",
+                            "24",
+                            "25",
+                            "26",
+                            "27",
+                            "28"
+                        ]
+                    }
+                }
+            },
+            "16": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_6",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "129",
+                            "138",
+                            "24",
+                            "169",
+                            "135",
+                            "17",
+                            "191",
+                            "189"
+                        ],
+                        "SKUs": [
+                            "29",
+                            "30",
+                            "31",
+                            "32",
+                            "33",
+                            "34",
+                            "35",
+                            "36"
+                        ]
+                    }
+                }
+            },
+            "17": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_7",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "122",
+                            "65",
+                            "208",
+                            "217",
+                            "68"
+                        ],
+                        "SKUs": [
+                            "37",
+                            "38",
+                            "39",
+                            "40",
+                            "41"
+                        ]
+                    }
+                }
+            },
+            "18": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_8",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "61",
+                            "187",
+                            "194",
+                            "234",
+                            "120",
+                            "235",
+                            "31",
+                            "141",
+                            "52",
+                            "80",
+                            "268",
+                            "205",
+                            "242"
+                        ],
+                        "SKUs": [
+                            "42",
+                            "43",
+                            "44",
+                            "24",
+                            "204",
+                            "156",
+                            "122",
+                            "273",
+                            "202",
+                            "256",
+                            "148",
+                            "25",
+                            "265"
+                        ]
+                    }
+                }
+            },
+            "19": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_9",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "53",
+                            "60"
+                        ],
+                        "SKUs": [
+                            "45",
+                            "46"
+                        ]
+                    }
+                }
+            },
+            "20": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_21",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "98",
+                            "252",
+                            "123",
+                            "176",
+                            "74",
+                            "197"
+                        ],
+                        "SKUs": [
+                            "51",
+                            "52",
+                            "53",
+                            "54",
+                            "55",
+                            "56"
+                        ]
+                    }
+                }
+            },
+            "21": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_22",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "178",
+                            "78"
+                        ],
+                        "SKUs": [
+                            "68",
+                            "69"
+                        ]
+                    }
+                }
+            },
+            "22": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_23",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "98",
+                            "252",
+                            "123",
+                            "176",
+                            "74",
+                            "197"
+                        ],
+                        "SKUs": [
+                            "51",
+                            "52",
+                            "53",
+                            "54",
+                            "55",
+                            "56"
+                        ]
+                    }
+                }
+            },
+            "23": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_24",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "154"
+                        ],
+                        "SKUs": [
+                            "62"
+                        ]
+                    }
+                }
+            },
+            "24": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "NR2",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c84_17d1_25",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "262",
+                            "240",
+                            "198",
+                            "260",
+                            "75",
+                            "182",
+                            "133",
+                            "222"
+                        ],
+                        "SKUs": [
+                            "78",
+                            "79",
+                            "80",
+                            "81",
+                            "82",
+                            "83",
+                            "84",
+                            "85"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1338 @@
+{
+    "_meta": {
+        "warehouse": {
+            "tag": "SingleRack",
+            "uuid": ""
+        },
+        "optimizationParameters": {
+            "NUM_ITERATIONS": 20000,
+            "USE_REASSIGNMENT_DISTANCE": true,
+            "PERC_SWAPS": 100,
+            "C1": 4,
+            "C2": 1,
+            "R_AMOUNT": 0.5
+        },
+        "requestName": "c159_6ab8",
+        "bench": {
+            "req_name_int": 412,
+            "ALGO": null
+        }
+    },
+    "requestType": "storageassignment",
+    "requestData": {
+        "auth": null,
+        "destination": "1",
+        "mobileUnitCapacities": {
+            "numOrders": 0,
+            "volume": null,
+            "weight": null
+        },
+        "origin": "0",
+        "computationalTime": "minimal",
+        "SKUsToSlot": "optimizedSelectionPickingLog",
+        "optimizationType": {
+            "analysisOnly": false
+        },
+        "assignmentOptions": {
+            "openLocations": "SKUsToSlot",
+            "evaluationData": "pickingLogInRequest",
+            "assignmentType": "swaps"
+        },
+        "pickingLog": {
+            "0": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_1",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "347",
+                            "5",
+                            "221",
+                            "195"
+                        ],
+                        "SKUs": [
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ]
+                    }
+                }
+            },
+            "1": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_10",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "69",
+                            "375",
+                            "415",
+                            "363"
+                        ],
+                        "SKUs": [
+                            "45",
+                            "46",
+                            "47",
+                            "48"
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_11",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "185",
+                            "429",
+                            "254",
+                            "187",
+                            "66",
+                            "114",
+                            "328",
+                            "111"
+                        ],
+                        "SKUs": [
+                            "49",
+                            "50",
+                            "51",
+                            "52",
+                            "53",
+                            "54",
+                            "55",
+                            "56"
+                        ]
+                    }
+                }
+            },
+            "3": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_12",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "137",
+                            "58",
+                            "19",
+                            "70",
+                            "208",
+                            "316",
+                            "435",
+                            "331",
+                            "54"
+                        ],
+                        "SKUs": [
+                            "57",
+                            "58",
+                            "59",
+                            "60",
+                            "61",
+                            "62",
+                            "63",
+                            "64",
+                            "121"
+                        ]
+                    }
+                }
+            },
+            "4": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_13",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "40"
+                        ],
+                        "SKUs": [
+                            "65"
+                        ]
+                    }
+                }
+            },
+            "5": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_14",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "241",
+                            "425",
+                            "233"
+                        ],
+                        "SKUs": [
+                            "66",
+                            "67",
+                            "68"
+                        ]
+                    }
+                }
+            },
+            "6": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_15",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "171",
+                            "371",
+                            "183"
+                        ],
+                        "SKUs": [
+                            "69",
+                            "70",
+                            "71"
+                        ]
+                    }
+                }
+            },
+            "7": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_16",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "177",
+                            "416",
+                            "162",
+                            "437",
+                            "247",
+                            "10",
+                            "83",
+                            "202"
+                        ],
+                        "SKUs": [
+                            "72",
+                            "73",
+                            "74",
+                            "75",
+                            "76",
+                            "77",
+                            "78",
+                            "79"
+                        ]
+                    }
+                }
+            },
+            "8": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_17",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "424",
+                            "323"
+                        ],
+                        "SKUs": [
+                            "80",
+                            "81"
+                        ]
+                    }
+                }
+            },
+            "9": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_18",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "150"
+                        ],
+                        "SKUs": [
+                            "82"
+                        ]
+                    }
+                }
+            },
+            "10": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_19",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "282",
+                            "105",
+                            "128",
+                            "409",
+                            "101",
+                            "402",
+                            "155",
+                            "84"
+                        ],
+                        "SKUs": [
+                            "83",
+                            "84",
+                            "85",
+                            "86",
+                            "87",
+                            "88",
+                            "89",
+                            "90"
+                        ]
+                    }
+                }
+            },
+            "11": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_2",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "262",
+                            "296",
+                            "366",
+                            "403",
+                            "120",
+                            "292"
+                        ],
+                        "SKUs": [
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+                            "10",
+                            "11"
+                        ]
+                    }
+                }
+            },
+            "12": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_20",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "34",
+                            "308",
+                            "343",
+                            "302"
+                        ],
+                        "SKUs": [
+                            "91",
+                            "92",
+                            "93",
+                            "94"
+                        ]
+                    }
+                }
+            },
+            "13": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_21",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "24",
+                            "102"
+                        ],
+                        "SKUs": [
+                            "95",
+                            "96"
+                        ]
+                    }
+                }
+            },
+            "14": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_22",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "8",
+                            "305",
+                            "274",
+                            "217",
+                            "86"
+                        ],
+                        "SKUs": [
+                            "97",
+                            "98",
+                            "99",
+                            "100",
+                            "101"
+                        ]
+                    }
+                }
+            },
+            "15": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_23",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "42"
+                        ],
+                        "SKUs": [
+                            "102"
+                        ]
+                    }
+                }
+            },
+            "16": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_24",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "300",
+                            "420",
+                            "232"
+                        ],
+                        "SKUs": [
+                            "103",
+                            "104",
+                            "105"
+                        ]
+                    }
+                }
+            },
+            "17": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_25",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "405",
+                            "210"
+                        ],
+                        "SKUs": [
+                            "106",
+                            "107"
+                        ]
+                    }
+                }
+            },
+            "18": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_26",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "130",
+                            "455",
+                            "339",
+                            "115",
+                            "441"
+                        ],
+                        "SKUs": [
+                            "108",
+                            "109",
+                            "110",
+                            "111",
+                            "112"
+                        ]
+                    }
+                }
+            },
+            "19": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_27",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "78",
+                            "382",
+                            "138",
+                            "365",
+                            "209",
+                            "49",
+                            "27"
+                        ],
+                        "SKUs": [
+                            "113",
+                            "114",
+                            "115",
+                            "116",
+                            "117",
+                            "118",
+                            "119"
+                        ]
+                    }
+                }
+            },
+            "20": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_28",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "462",
+                            "54",
+                            "9",
+                            "149"
+                        ],
+                        "SKUs": [
+                            "120",
+                            "121",
+                            "122",
+                            "123"
+                        ]
+                    }
+                }
+            },
+            "21": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_29",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "37",
+                            "148",
+                            "386",
+                            "90",
+                            "71",
+                            "216",
+                            "272"
+                        ],
+                        "SKUs": [
+                            "124",
+                            "125",
+                            "126",
+                            "127",
+                            "128",
+                            "129",
+                            "130"
+                        ]
+                    }
+                }
+            },
+            "22": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_3",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "224",
+                            "38"
+                        ],
+                        "SKUs": [
+                            "12",
+                            "13"
+                        ]
+                    }
+                }
+            },
+            "23": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_30",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "193",
+                            "154",
+                            "414",
+                            "340",
+                            "335",
+                            "362",
+                            "263",
+                            "299"
+                        ],
+                        "SKUs": [
+                            "131",
+                            "132",
+                            "133",
+                            "134",
+                            "135",
+                            "136",
+                            "137",
+                            "138"
+                        ]
+                    }
+                }
+            },
+            "24": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_31",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "60",
+                            "125",
+                            "256"
+                        ],
+                        "SKUs": [
+                            "139",
+                            "140",
+                            "141"
+                        ]
+                    }
+                }
+            },
+            "25": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_32",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "337",
+                            "433",
+                            "301",
+                            "349",
+                            "411",
+                            "190",
+                            "268"
+                        ],
+                        "SKUs": [
+                            "142",
+                            "143",
+                            "144",
+                            "145",
+                            "146",
+                            "147",
+                            "148"
+                        ]
+                    }
+                }
+            },
+            "26": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_33",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "286",
+                            "445",
+                            "39"
+                        ],
+                        "SKUs": [
+                            "149",
+                            "150",
+                            "151"
+                        ]
+                    }
+                }
+            },
+            "27": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_34",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "304",
+                            "458",
+                            "293",
+                            "196"
+                        ],
+                        "SKUs": [
+                            "152",
+                            "153",
+                            "154",
+                            "155"
+                        ]
+                    }
+                }
+            },
+            "28": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_35",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "93",
+                            "355",
+                            "131",
+                            "330",
+                            "211"
+                        ],
+                        "SKUs": [
+                            "156",
+                            "157",
+                            "158",
+                            "159",
+                            "160"
+                        ]
+                    }
+                }
+            },
+            "29": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_4",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "229",
+                            "99",
+                            "122",
+                            "188",
+                            "269",
+                            "132",
+                            "212",
+                            "288",
+                            "140",
+                            "362",
+                            "386",
+                            "15",
+                            "433",
+                            "36",
+                            "3",
+                            "89"
+                        ],
+                        "SKUs": [
+                            "14",
+                            "15",
+                            "16",
+                            "17",
+                            "18",
+                            "19",
+                            "246",
+                            "283",
+                            "200",
+                            "136",
+                            "126",
+                            "290",
+                            "143",
+                            "216",
+                            "469",
+                            "270"
+                        ]
+                    }
+                }
+            },
+            "30": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_5",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "434",
+                            "359",
+                            "380",
+                            "30",
+                            "320"
+                        ],
+                        "SKUs": [
+                            "20",
+                            "21",
+                            "22",
+                            "23",
+                            "24"
+                        ]
+                    }
+                }
+            },
+            "31": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_6",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "350",
+                            "242",
+                            "109",
+                            "345",
+                            "168",
+                            "228",
+                            "244"
+                        ],
+                        "SKUs": [
+                            "25",
+                            "26",
+                            "27",
+                            "28",
+                            "29",
+                            "30",
+                            "31"
+                        ]
+                    }
+                }
+            },
+            "32": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_7",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "175",
+                            "348"
+                        ],
+                        "SKUs": [
+                            "32",
+                            "33"
+                        ]
+                    }
+                }
+            },
+            "33": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_8",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "364",
+                            "332",
+                            "460",
+                            "239",
+                            "167",
+                            "467",
+                            "46",
+                            "107"
+                        ],
+                        "SKUs": [
+                            "34",
+                            "35",
+                            "36",
+                            "37",
+                            "38",
+                            "39",
+                            "40",
+                            "41"
+                        ]
+                    }
+                }
+            },
+            "34": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_9",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "278",
+                            "459",
+                            "206"
+                        ],
+                        "SKUs": [
+                            "42",
+                            "43",
+                            "44"
+                        ]
+                    }
+                }
+            },
+            "35": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_36",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "282",
+                            "105",
+                            "128",
+                            "409",
+                            "101",
+                            "402",
+                            "155",
+                            "84"
+                        ],
+                        "SKUs": [
+                            "83",
+                            "84",
+                            "85",
+                            "86",
+                            "87",
+                            "88",
+                            "89",
+                            "90"
+                        ]
+                    }
+                }
+            },
+            "36": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_37",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "42"
+                        ],
+                        "SKUs": [
+                            "102"
+                        ]
+                    }
+                }
+            },
+            "37": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_38",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "347",
+                            "5",
+                            "221",
+                            "195"
+                        ],
+                        "SKUs": [
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ]
+                    }
+                }
+            },
+            "38": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_39",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "150"
+                        ],
+                        "SKUs": [
+                            "82"
+                        ]
+                    }
+                }
+            },
+            "39": {
+                "_meta": {
+                    "warehouse": {
+                        "tag": "SingleRack",
+                        "uuid": ""
+                    },
+                    "saveInBQ": false
+                },
+                "requestType": "pickroute",
+                "requestData": {
+                    "origin": "0",
+                    "destination": "1",
+                    "mobileUnitId": "",
+                    "pickRoundId": "c159_6ab8_40",
+                    "userId": "",
+                    "picksInfo": {
+                        "locations": [
+                            "300",
+                            "420",
+                            "232"
+                        ],
+                        "SKUs": [
+                            "103",
+                            "104",
+                            "105"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

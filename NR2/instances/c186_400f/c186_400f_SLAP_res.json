@@ -1,0 +1,22 @@
+{
+    "distanceOrderPicking": 676.51,
+    "distanceOriginal": 683.509,
+    "distanceReassignmentPath": 13.46,
+    "distanceTotalOptimized": 689.97,
+    "numberOfLocationChangesProposed": 2,
+    "reassignmentPath": [
+        "20",
+        "46",
+        "20"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "20",
+            "rawLocOriginal": "46"
+        },
+        "53": {
+            "rawLocCurrent": "46",
+            "rawLocOriginal": "20"
+        }
+    }
+}

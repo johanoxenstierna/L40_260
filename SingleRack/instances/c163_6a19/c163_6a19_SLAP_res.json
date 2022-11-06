@@ -1,0 +1,124 @@
+{
+    "distanceOrderPicking": 623.07,
+    "distanceOriginal": 680.63,
+    "distanceReassignmentPath": 76.99,
+    "distanceTotalOptimized": 700.06,
+    "numberOfLocationChangesProposed": 22,
+    "reassignmentPath": [
+        "211",
+        "420",
+        "211",
+        "109",
+        "406",
+        "111",
+        "421",
+        "382",
+        "299",
+        "343",
+        "271",
+        "110",
+        "112",
+        "4",
+        "435",
+        "97",
+        "81",
+        "258",
+        "128",
+        "150",
+        "415",
+        "109",
+        "413",
+        "300",
+        "413"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "211",
+            "rawLocOriginal": "420"
+        },
+        "111": {
+            "rawLocCurrent": "413",
+            "rawLocOriginal": "300"
+        },
+        "124": {
+            "rawLocCurrent": "406",
+            "rawLocOriginal": "109"
+        },
+        "145": {
+            "rawLocCurrent": "4",
+            "rawLocOriginal": "112"
+        },
+        "147": {
+            "rawLocCurrent": "300",
+            "rawLocOriginal": "413"
+        },
+        "148": {
+            "rawLocCurrent": "112",
+            "rawLocOriginal": "110"
+        },
+        "156": {
+            "rawLocCurrent": "110",
+            "rawLocOriginal": "271"
+        },
+        "159": {
+            "rawLocCurrent": "343",
+            "rawLocOriginal": "299"
+        },
+        "17": {
+            "rawLocCurrent": "109",
+            "rawLocOriginal": "415"
+        },
+        "18": {
+            "rawLocCurrent": "435",
+            "rawLocOriginal": "4"
+        },
+        "24": {
+            "rawLocCurrent": "299",
+            "rawLocOriginal": "382"
+        },
+        "26": {
+            "rawLocCurrent": "420",
+            "rawLocOriginal": "211"
+        },
+        "263": {
+            "rawLocCurrent": "382",
+            "rawLocOriginal": "421"
+        },
+        "3": {
+            "rawLocCurrent": "421",
+            "rawLocOriginal": "111"
+        },
+        "42": {
+            "rawLocCurrent": "415",
+            "rawLocOriginal": "150"
+        },
+        "458": {
+            "rawLocCurrent": "81",
+            "rawLocOriginal": "97"
+        },
+        "57": {
+            "rawLocCurrent": "128",
+            "rawLocOriginal": "258"
+        },
+        "73": {
+            "rawLocCurrent": "271",
+            "rawLocOriginal": "343"
+        },
+        "78": {
+            "rawLocCurrent": "111",
+            "rawLocOriginal": "406"
+        },
+        "8": {
+            "rawLocCurrent": "97",
+            "rawLocOriginal": "435"
+        },
+        "80": {
+            "rawLocCurrent": "150",
+            "rawLocOriginal": "128"
+        },
+        "94": {
+            "rawLocCurrent": "258",
+            "rawLocOriginal": "81"
+        }
+    }
+}

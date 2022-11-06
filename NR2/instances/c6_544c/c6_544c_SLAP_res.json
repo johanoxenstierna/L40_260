@@ -1,0 +1,32 @@
+{
+    "distanceOrderPicking": 94.77,
+    "distanceOriginal": 134.496,
+    "distanceReassignmentPath": 40.03,
+    "distanceTotalOptimized": 134.79,
+    "numberOfLocationChangesProposed": 4,
+    "reassignmentPath": [
+        "21",
+        "168",
+        "111",
+        "169",
+        "21"
+    ],
+    "slottedSKUs": {
+        "2": {
+            "rawLocCurrent": "111",
+            "rawLocOriginal": "168"
+        },
+        "255": {
+            "rawLocCurrent": "169",
+            "rawLocOriginal": "111"
+        },
+        "3": {
+            "rawLocCurrent": "21",
+            "rawLocOriginal": "169"
+        },
+        "54": {
+            "rawLocCurrent": "168",
+            "rawLocOriginal": "21"
+        }
+    }
+}

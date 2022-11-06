@@ -1,0 +1,204 @@
+{
+    "distanceOrderPicking": 395.91,
+    "distanceOriginal": 507.7,
+    "distanceReassignmentPath": 120.14,
+    "distanceTotalOptimized": 516.05,
+    "numberOfLocationChangesProposed": 38,
+    "reassignmentPath": [
+        "22",
+        "14",
+        "22",
+        "32",
+        "27",
+        "32",
+        "73",
+        "84",
+        "86",
+        "81",
+        "89",
+        "193",
+        "68",
+        "53",
+        "165",
+        "155",
+        "208",
+        "55",
+        "67",
+        "72",
+        "96",
+        "83",
+        "65",
+        "1",
+        "49",
+        "214",
+        "107",
+        "194",
+        "162",
+        "202",
+        "141",
+        "116",
+        "37",
+        "192",
+        "175",
+        "51",
+        "128",
+        "31",
+        "17",
+        "43",
+        "73"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "175",
+            "rawLocOriginal": "192"
+        },
+        "101": {
+            "rawLocCurrent": "53",
+            "rawLocOriginal": "68"
+        },
+        "104": {
+            "rawLocCurrent": "208",
+            "rawLocOriginal": "155"
+        },
+        "106": {
+            "rawLocCurrent": "202",
+            "rawLocOriginal": "162"
+        },
+        "108": {
+            "rawLocCurrent": "96",
+            "rawLocOriginal": "72"
+        },
+        "112": {
+            "rawLocCurrent": "31",
+            "rawLocOriginal": "128"
+        },
+        "118": {
+            "rawLocCurrent": "27",
+            "rawLocOriginal": "32"
+        },
+        "16": {
+            "rawLocCurrent": "49",
+            "rawLocOriginal": "1"
+        },
+        "18": {
+            "rawLocCurrent": "51",
+            "rawLocOriginal": "175"
+        },
+        "19": {
+            "rawLocCurrent": "37",
+            "rawLocOriginal": "116"
+        },
+        "22": {
+            "rawLocCurrent": "192",
+            "rawLocOriginal": "37"
+        },
+        "23": {
+            "rawLocCurrent": "194",
+            "rawLocOriginal": "107"
+        },
+        "24": {
+            "rawLocCurrent": "193",
+            "rawLocOriginal": "89"
+        },
+        "26": {
+            "rawLocCurrent": "89",
+            "rawLocOriginal": "81"
+        },
+        "27": {
+            "rawLocCurrent": "17",
+            "rawLocOriginal": "31"
+        },
+        "3": {
+            "rawLocCurrent": "86",
+            "rawLocOriginal": "84"
+        },
+        "33": {
+            "rawLocCurrent": "128",
+            "rawLocOriginal": "51"
+        },
+        "36": {
+            "rawLocCurrent": "1",
+            "rawLocOriginal": "65"
+        },
+        "37": {
+            "rawLocCurrent": "83",
+            "rawLocOriginal": "96"
+        },
+        "38": {
+            "rawLocCurrent": "43",
+            "rawLocOriginal": "17"
+        },
+        "42": {
+            "rawLocCurrent": "107",
+            "rawLocOriginal": "214"
+        },
+        "46": {
+            "rawLocCurrent": "55",
+            "rawLocOriginal": "208"
+        },
+        "47": {
+            "rawLocCurrent": "32",
+            "rawLocOriginal": "27"
+        },
+        "48": {
+            "rawLocCurrent": "22",
+            "rawLocOriginal": "14"
+        },
+        "55": {
+            "rawLocCurrent": "214",
+            "rawLocOriginal": "49"
+        },
+        "60": {
+            "rawLocCurrent": "116",
+            "rawLocOriginal": "141"
+        },
+        "61": {
+            "rawLocCurrent": "165",
+            "rawLocOriginal": "53"
+        },
+        "68": {
+            "rawLocCurrent": "141",
+            "rawLocOriginal": "202"
+        },
+        "74": {
+            "rawLocCurrent": "84",
+            "rawLocOriginal": "73"
+        },
+        "77": {
+            "rawLocCurrent": "72",
+            "rawLocOriginal": "67"
+        },
+        "78": {
+            "rawLocCurrent": "162",
+            "rawLocOriginal": "194"
+        },
+        "8": {
+            "rawLocCurrent": "68",
+            "rawLocOriginal": "193"
+        },
+        "81": {
+            "rawLocCurrent": "155",
+            "rawLocOriginal": "165"
+        },
+        "82": {
+            "rawLocCurrent": "81",
+            "rawLocOriginal": "86"
+        },
+        "85": {
+            "rawLocCurrent": "14",
+            "rawLocOriginal": "22"
+        },
+        "86": {
+            "rawLocCurrent": "65",
+            "rawLocOriginal": "83"
+        },
+        "96": {
+            "rawLocCurrent": "73",
+            "rawLocOriginal": "43"
+        },
+        "99": {
+            "rawLocCurrent": "67",
+            "rawLocOriginal": "55"
+        }
+    }
+}

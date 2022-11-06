@@ -1,0 +1,87 @@
+{
+    "distanceOrderPicking": 201.59,
+    "distanceOriginal": 244.353,
+    "distanceReassignmentPath": 55.07,
+    "distanceTotalOptimized": 256.65,
+    "numberOfLocationChangesProposed": 15,
+    "reassignmentPath": [
+        "171",
+        "161",
+        "59",
+        "165",
+        "168",
+        "201",
+        "117",
+        "183",
+        "160",
+        "213",
+        "217",
+        "202",
+        "32",
+        "199",
+        "180",
+        "171"
+    ],
+    "slottedSKUs": {
+        "10": {
+            "rawLocCurrent": "202",
+            "rawLocOriginal": "217"
+        },
+        "106": {
+            "rawLocCurrent": "213",
+            "rawLocOriginal": "160"
+        },
+        "11": {
+            "rawLocCurrent": "165",
+            "rawLocOriginal": "59"
+        },
+        "12": {
+            "rawLocCurrent": "161",
+            "rawLocOriginal": "171"
+        },
+        "14": {
+            "rawLocCurrent": "201",
+            "rawLocOriginal": "168"
+        },
+        "15": {
+            "rawLocCurrent": "180",
+            "rawLocOriginal": "199"
+        },
+        "16": {
+            "rawLocCurrent": "168",
+            "rawLocOriginal": "165"
+        },
+        "17": {
+            "rawLocCurrent": "171",
+            "rawLocOriginal": "180"
+        },
+        "229": {
+            "rawLocCurrent": "32",
+            "rawLocOriginal": "202"
+        },
+        "3": {
+            "rawLocCurrent": "199",
+            "rawLocOriginal": "32"
+        },
+        "39": {
+            "rawLocCurrent": "217",
+            "rawLocOriginal": "213"
+        },
+        "4": {
+            "rawLocCurrent": "183",
+            "rawLocOriginal": "117"
+        },
+        "73": {
+            "rawLocCurrent": "117",
+            "rawLocOriginal": "201"
+        },
+        "74": {
+            "rawLocCurrent": "160",
+            "rawLocOriginal": "183"
+        },
+        "8": {
+            "rawLocCurrent": "59",
+            "rawLocOriginal": "161"
+        }
+    }
+}
