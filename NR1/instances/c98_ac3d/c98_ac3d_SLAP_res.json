@@ -1,135 +1,148 @@
 {
-    "distanceOrderPicking": 344.78,
-    "distanceOriginal": 443.092,
-    "distanceReassignmentPath": 94.71,
-    "distanceTotalOptimized": 439.49,
-    "numberOfLocationChangesProposed": 24,
+    "distanceOrderPicking": 303.68,
+    "distanceOriginal": 402.971,
+    "distanceReassignmentPath": 93.2,
+    "distanceSaved": 6.1,
+    "distanceTotalOptimized": 396.87,
+    "numberOfLocationChangesProposed": 27,
     "reassignmentPath": [
-        "227",
-        "220",
-        "227",
-        "206",
-        "199",
-        "149",
+        "1",
+        "125",
+        "131",
+        "128",
         "146",
-        "126",
-        "73",
-        "12",
+        "57",
+        "23",
         "211",
-        "214",
-        "151",
         "169",
-        "183",
-        "187",
-        "182",
-        "161",
-        "206",
-        "213",
-        "196",
-        "177",
-        "185",
-        "222",
-        "213",
-        "114",
-        "8",
-        "114"
+        "144",
+        "156",
+        "121",
+        "117",
+        "133",
+        "176",
+        "20",
+        "14",
+        "119",
+        "17",
+        "27",
+        "33",
+        "26",
+        "13",
+        "3",
+        "98",
+        "91",
+        "100",
+        "1"
     ],
     "slottedSKUs": {
-        "11": {
-            "rawLocCurrent": "185",
-            "rawLocOriginal": "177"
-        },
-        "13": {
-            "rawLocCurrent": "8",
-            "rawLocOriginal": "114"
-        },
-        "14": {
-            "rawLocCurrent": "182",
-            "rawLocOriginal": "187"
-        },
-        "180": {
-            "rawLocCurrent": "161",
-            "rawLocOriginal": "182"
-        },
-        "2": {
-            "rawLocCurrent": "151",
-            "rawLocOriginal": "214"
-        },
-        "21": {
-            "rawLocCurrent": "114",
-            "rawLocOriginal": "8"
-        },
-        "23": {
-            "rawLocCurrent": "196",
-            "rawLocOriginal": "213"
-        },
-        "28": {
-            "rawLocCurrent": "199",
-            "rawLocOriginal": "206"
-        },
-        "38": {
-            "rawLocCurrent": "183",
-            "rawLocOriginal": "169"
-        },
-        "4": {
+        "12": {
             "rawLocCurrent": "169",
-            "rawLocOriginal": "151"
-        },
-        "41": {
-            "rawLocCurrent": "177",
-            "rawLocOriginal": "196"
-        },
-        "44": {
-            "rawLocCurrent": "211",
-            "rawLocOriginal": "12"
-        },
-        "47": {
-            "rawLocCurrent": "213",
-            "rawLocOriginal": "222"
-        },
-        "51": {
-            "rawLocCurrent": "149",
-            "rawLocOriginal": "199"
-        },
-        "52": {
-            "rawLocCurrent": "126",
-            "rawLocOriginal": "146"
-        },
-        "54": {
-            "rawLocCurrent": "214",
             "rawLocOriginal": "211"
         },
-        "67": {
-            "rawLocCurrent": "187",
-            "rawLocOriginal": "183"
+        "13": {
+            "rawLocCurrent": "26",
+            "rawLocOriginal": "33"
         },
-        "76": {
-            "rawLocCurrent": "220",
-            "rawLocOriginal": "227"
+        "19": {
+            "rawLocCurrent": "128",
+            "rawLocOriginal": "131"
+        },
+        "2": {
+            "rawLocCurrent": "1",
+            "rawLocOriginal": "100"
+        },
+        "202": {
+            "rawLocCurrent": "14",
+            "rawLocOriginal": "20"
+        },
+        "21": {
+            "rawLocCurrent": "100",
+            "rawLocOriginal": "91"
+        },
+        "23": {
+            "rawLocCurrent": "144",
+            "rawLocOriginal": "169"
+        },
+        "28": {
+            "rawLocCurrent": "176",
+            "rawLocOriginal": "133"
+        },
+        "42": {
+            "rawLocCurrent": "91",
+            "rawLocOriginal": "98"
+        },
+        "44": {
+            "rawLocCurrent": "98",
+            "rawLocOriginal": "3"
+        },
+        "45": {
+            "rawLocCurrent": "211",
+            "rawLocOriginal": "23"
+        },
+        "46": {
+            "rawLocCurrent": "17",
+            "rawLocOriginal": "119"
+        },
+        "54": {
+            "rawLocCurrent": "156",
+            "rawLocOriginal": "144"
+        },
+        "56": {
+            "rawLocCurrent": "131",
+            "rawLocOriginal": "125"
+        },
+        "63": {
+            "rawLocCurrent": "33",
+            "rawLocOriginal": "27"
+        },
+        "64": {
+            "rawLocCurrent": "13",
+            "rawLocOriginal": "26"
+        },
+        "69": {
+            "rawLocCurrent": "133",
+            "rawLocOriginal": "117"
+        },
+        "71": {
+            "rawLocCurrent": "20",
+            "rawLocOriginal": "176"
+        },
+        "73": {
+            "rawLocCurrent": "57",
+            "rawLocOriginal": "146"
+        },
+        "74": {
+            "rawLocCurrent": "119",
+            "rawLocOriginal": "14"
+        },
+        "75": {
+            "rawLocCurrent": "117",
+            "rawLocOriginal": "121"
         },
         "79": {
-            "rawLocCurrent": "222",
-            "rawLocOriginal": "185"
+            "rawLocCurrent": "121",
+            "rawLocOriginal": "156"
         },
-        "89": {
-            "rawLocCurrent": "12",
-            "rawLocOriginal": "73"
-        },
-        "90": {
+        "82": {
             "rawLocCurrent": "146",
-            "rawLocOriginal": "149"
+            "rawLocOriginal": "128"
         },
-        "94": {
-            "rawLocCurrent": "206",
-            "rawLocOriginal": "161"
+        "84": {
+            "rawLocCurrent": "27",
+            "rawLocOriginal": "17"
         },
-        "95": {
-            "rawLocCurrent": "227",
-            "rawLocOriginal": "220"
+        "93": {
+            "rawLocCurrent": "125",
+            "rawLocOriginal": "1"
         },
         "96": {
-            "rawLocCurrent": "73",
-            "rawLocOriginal": "126"
+            "rawLocCurrent": "3",
+            "rawLocOriginal": "13"
+        },
+        "99": {
+            "rawLocCurrent": "23",
+            "rawLocOriginal": "57"
         }
     }
 }

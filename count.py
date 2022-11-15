@@ -20,5 +20,7 @@ for namef0 in folders0:
     #         inst = json.load(f)
 
     N += len(folders)
+    df = 5
 
+aa = 266 * 20000
 print("There are " + str(N) + " instances.")
